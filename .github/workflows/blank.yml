@@ -16,8 +16,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Npm install
-        run: 
-          cd project & npm install
+        run: echo 
       - name: Test init
         run: 
           ng test
