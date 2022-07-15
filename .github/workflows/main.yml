@@ -33,6 +33,6 @@ jobs:
         working-directory: ./project
         run: npm link @angular/cli
              
-      - name: Run npm link
+      - name: Run ng test 
         working-directory: ./project
         run: ng test
