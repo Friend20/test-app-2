@@ -28,5 +28,11 @@ jobs:
       - name: Run npm i
         working-directory: ./project
         run: npm i 
-             npm link @angular/cli
-             ng test
+ 
+      - name: Run npm link
+        working-directory: ./project
+        run: npm link @angular/cli
+             
+      - name: Run npm link
+        working-directory: ./project
+        run: ng test
