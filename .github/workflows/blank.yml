@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: Npm install
         run: 
-          npm install
+          cd project & npm install
       - name: Test init
         run: 
           ng test
