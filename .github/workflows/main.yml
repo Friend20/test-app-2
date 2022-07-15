@@ -27,5 +27,9 @@ jobs:
 
       - name: Run npm i
         run: npm i 
-            npm link @angular/cli
-            ng test
+            
+      - name: npm link
+        run: npm link @angular/cli
+        
+      - name: test
+        run: ng test
